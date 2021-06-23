@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 100px;
+}
+
+#header {
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    padding-top: 33px;
+    border-bottom: 1px solid turquoise;
+    padding-bottom: 45px;
+}
+
+.logo {
+    padding-top: 20px;
+    width: 50px;
+}
+
+hr{
+    border-bottom: 1px solid turquoise;
+}
+
+.nav ul {
+    display: inline;
+    list-style: none;
+    margin-left: 500px;
+    
+}  
+
+.nav ul li {
+    display: inline-block;
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding-left:40px;
+    color: grey;
+    
+}
+
+
+#home {
+    height: 750px;
+    width: 100%;
+    
+}
+
+.home_text{
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    padding-top: 70px;
+    width: 450px;
+    position: relative;
+    top:90px;
+
+}
+
+.home_image {
+    position: relative;
+    left: 450px;
+    bottom: 380px;
+    width: 500px;
+}
+
+button{
+    width: 100px;
+    height: 20px;
+}
+
+
+#our_carrot {
+    height: 600px;
+}
+
+.header_1 h1{
+    text-align: right;
+}
+
+.box1 {
+    display: inline-block;
+    width: 260px;
+    border: 3px solid rgb(34, 194, 159);
+    height: 340px;
+    height: 340px;
+    border-radius: 0px 60px 0px 0px;
+    position: relative;
+    left: 80px;
+}
+
+.box2 {
+    display: inline-block;
+    width: 260px;
+    border: 3px solid rgb(34, 194, 159);
+    height: 340px;;
+    height: 340px;
+    border-radius: 0px 60px 0px 0px;
+    position: relative;
+    top: 70px;
+    left: 160px;
+}
+
+.box3 {
+    display: inline-block;
+    width: 260px;
+    border: 3px solid rgb(34, 194, 159);
+    height: 340px;
+    border-radius: 0px 60px 0px 0px;
+    position: relative;
+    top: 140px;
+    left: 240px;
+}
+
+.our_carrot_img img {
+    width: 270px;
+    height: 200px;
+}
+
+#about_us {
+    height: 550px;
+}
+
+.p1 {
+    position: relative;
+    text-align: justify;
+    width: 500px;
+    left: 600px;
+    bottom: 400px;
+    color: grey;
+    line-height: 20px;
+}
+
+.button1{
+    background-color: rgb(34, 194, 159);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+#our_buddies{
+    height: 250px;
+}
+
+.header_3{
+    text-align: center;
+}
+
+.brand_logos{
+    position: relative;
+    left: 60px;
+}
+
+.brand_logos img{
+    padding-left: 30px;
+}
+
+
+#lets_talk{
+    height: 800px;
+}
+
+.header_4{
+    text-align: right;
+}
+
+form{
+    line-height: 45px;
+    color: grey;
+}
+input {
+    height: 40px;
+    width: 400px;
+}
+
+select{
+    padding: 10px 160px;
+    
+}
+
+
+.button2{
+    background-color: rgb(34, 194, 159);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    padding: 15px 100px;
+    text-decoration: none;
+}
+
+#footer{
+    height: 50px;
+    background-color: rgb(34, 194, 159);
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    left:0px;
+}
+
+#footer h5{
+    text-align: center;
+    color: white;
+    
+}
